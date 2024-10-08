@@ -1,4 +1,4 @@
-const SERVER_URL: string = "http://13.53.242.166:5000";
+const SERVER_URL: string = "http://16.170.104.111:5000";
 import { userLoginInfo, userSignUpInfo } from "../../types/User";
 
 const request = async <T>(url: string, options: RequestInit): Promise<T> => {
